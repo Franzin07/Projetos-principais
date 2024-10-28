@@ -1,0 +1,72 @@
+*{
+      transition: .1s;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+body{
+      color: white;
+      background-color: black;
+      transition: .2s;
+}
+#home{
+      font-size: 20px;
+      color: #fff
+      ;
+      text-decoration: none;
+}
+#quizform{
+      border: 2px solid #7b07ff;
+      color: white;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+input[type='radio'] {
+     display: inline-block;
+     border: 3px solid #7b07ff;
+     width: 70px;
+     border-radius: 20px;
+     height: 22px;
+     place-content:initial;
+     border-radius: 20%;
+     transition: 0.5s ease;
+}
+
+#botaomine{
+      
+            letter-spacing: 4px;
+            transition: all 0.4s ease-in-out 0s ;
+            border: 2px solid #7b07ff;
+            box-shadow: inset 0 0 20px #000 ;
+            height: 60px;
+           
+            margin-left: 800px;
+            margin-top: -900px;
+            background-color: #000;
+            border-radius: 1000px;
+            font-size: 22px;
+            color: white;
+            width: 200px;
+            text-transform: uppercase;
+            overflow: hidden;
+            font-weight: bold;
+            box-shadow: 0 0 15px #7b07ff,
+                      0 0 35px#7b07ff,
+                      0 0 66px #7b07ff,
+                      0 0 500px #7b07ff;}
+
+#botaomine:hover{
+                        background: transparent;
+                        color: #7b07ff;
+                        transform: scale(1.4);
+                        cursor: grab;
+                        background-color: #7b07ff;
+                        color: #ffffff;
+                        box-shadow: 0 0 25px #7b07ff,
+                                  0 0 55px#7b07ff,
+                                  0 0 90px #7b07ff,
+                                  0 0 2000px #7b07ff;
+                        -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+                  }

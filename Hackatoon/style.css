@@ -1,0 +1,221 @@
+*{
+      transition: .1s;
+      padding: 0;
+      box-sizing: border-box;
+}
+.texto{
+      text-align: center;
+      font-size: 60px;
+      margin-top: -60px;
+      color: transparent;
+      text-transform: uppercase;
+      animation:  text 2s ease alternate infinite;
+
+}
+@keyframes text {
+      from{
+            color: #fff;
+            background-position: 0% 50%;
+      } 
+      to{
+            color: #7b07ff;
+            background-position: 100% 50%;
+      }
+}
+
+#ex{
+      transform: rotate(20deg);
+      
+      color: transparent;
+      margin-top: 70px;
+      text-transform: uppercase;
+      animation:  text 2s ease alternate infinite;
+      font-size: 60px;
+      text-align: center;
+
+}
+/*======== BOTOES MINE E NARUTO *======/*/
+#mbutton{
+      font-size: 22px;
+      display: flex;
+      letter-spacing: 4px;
+      width: 200px;
+      margin-top: -500px;
+      margin-left: 700px;
+      height: 60px;
+      border: 2px solid #7b07ff;
+      color: #7b07ff;
+      background-color: #000;
+      overflow: hidden;
+      box-shadow: inset 0 0 20px #000 ;
+      transition: all 0.4s ease-in-out 0s ;
+      border-radius: 40px;
+      font-weight: bold;
+      box-shadow: 0 0 15px #7b07ff,
+                0 0 35px#7b07ff,
+                0 0 66px #7b07ff,
+                0 0 500px #7b07ff;
+      text-transform: uppercase;
+}
+#spn1{
+      color: #fff;
+      margin-left : 100px;
+      font-size: 40px;
+      text-align: center;
+      animation:  text 2s ease alternate infinite;
+      letter-spacing: 3px;
+}
+#nbutton{
+      letter-spacing: 4px;
+      transition: all 0.4s ease-in-out 0s ;
+      border: 2px solid #7b07ff;
+      box-shadow: inset 0 0 20px #000 ;
+      height: 60px;
+      transform:translateY(-500px);
+      margin-left: 700px;
+      margin-top: -700px;
+      background-color: #000;
+      border-radius: 1000px;
+      font-size: 22px;
+      color: #7b07ff;
+      width: 200px;
+      text-transform: uppercase;
+      overflow: hidden;
+      font-weight: bold;
+      box-shadow: 0 0 15px #7b07ff,
+                0 0 35px#7b07ff,
+                0 0 66px #7b07ff,
+                0 0 500px #7b07ff;
+     
+}
+#hbutton{
+      letter-spacing: 4px;
+      transition: all 0.4s ease-in-out 0s ;
+      border: 2px solid #7b07ff;
+      box-shadow: inset 0 0 20px #000 ;
+      height: 60px;
+      transform:translateY(-500px);
+      margin-left: 820px;
+      margin-top: 100px;
+      background-color: #000;
+      border-radius: 1000px;
+      font-size: 22px;
+      color: #7b07ff;
+      width: 200px;
+      text-transform: uppercase;
+      overflow: hidden;
+      font-weight: bold;
+      box-shadow: 0 0 15px #7b07ff,
+                0 0 35px#7b07ff,
+                0 0 66px #7b07ff,
+                0 0 500px #7b07ff;
+      
+}
+#mbutton:hover{
+      background: transparent;
+      color: #7b07ff;
+      transform: scale(1.4);
+      cursor: grab;
+      background-color: #7b07ff;
+      color: #050801;
+      box-shadow: 0 0 25px #7b07ff,
+                0 0 55px#7b07ff,
+                0 0 90px #7b07ff,
+                0 0 2000px #7b07ff;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+#nbutton:hover{
+      background: transparent;
+      color: #7b07ff;
+      transform: scale(1.4)translateY(-360px);
+      cursor: grab;
+      background-color: #7b07ff;
+     
+      color: #050801;
+      box-shadow: 0 0 50px #7b07ff,
+      0 0 90px#7b07ff,
+      0 0 100px #7b07ff,
+      0 0 8000px #7b07ff;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+      
+}
+#hbutton:hover{
+      background: transparent;
+      color: #7b07ff;
+      transform: scale(1.4)translateY(-360px);
+      cursor: grab;
+      background-color: #7b07ff;
+     
+      color: #050801;
+      box-shadow: 0 0 50px #7b07ff,
+      0 0 90px#7b07ff,
+      0 0 100px #7b07ff,
+      0 0 8000px #7b07ff;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+
+#hbutton:first-child{
+      filter: hue-rotate(1deg);
+  }
+#hbutton:last-child{
+      filter: hue-rotate(1deg);
+}
+#nbutton:first-child{
+      filter: hue-rotate(1deg);
+  }
+#nbutton:last-child{
+      filter: hue-rotate(1deg);
+}
+#mbutton:first-child{
+      filter: hue-rotate(1deg);
+  }
+#mbutton:last-child{
+      filter: hue-rotate(1deg);
+}
+
+/*========-=============================/*/
+.fundo{
+      background-color: #0e0d0d;
+      width: 550px;
+      box-shadow: 0 0 5px #7b07ff,
+      0 0 10px#7b07ff,
+      0 0 45px #7b07ff,
+      0 0 300px #7b07ff;
+      border: 2px solid #7b07ff;
+      border-radius: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-right: 400px;
+      margin-left: 640px;
+      height: 500px;
+     
+}
+
+body{
+      transition: .1s;
+      background-color: #000;
+      overflow: hidden;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}     
+
+#m1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-top: 100px;
+      color: #fff;
+      text-align: center;
+      display: flex;
+
+      margin: 120px;
+      font-size: 20px;
+      text-decoration: none;
+}
+#n1{
+      margin-top: 100px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #fff;
+      margin: 120px;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+}

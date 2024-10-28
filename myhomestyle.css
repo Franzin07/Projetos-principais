@@ -1,0 +1,56 @@
+#main{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    color: transparent;
+    text-transform: uppercase;
+    animation:  text 2s ease alternate infinite;
+    color: rgb(255, 255, 255);
+
+}
+body{
+    transition: .1s;
+    background-color: #000;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}     
+#quizbutton{
+    position: absolute; 
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border: 2px solid #e71c1c;
+    color: white;
+    background-color: black;
+    border-radius: 10cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dogbutton{
+    position: absolute; 
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border: 2px solid #e71c1c;
+    color: white;
+    background-color: black;
+    border-radius: 10cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#dogbutton:hover{
+    transition: 0.5s;
+    background-color: #e71c1c;
+}
+#quizbutton:hover{
+    transition: 0.5s;
+    background-color: #e71c1c;
+}

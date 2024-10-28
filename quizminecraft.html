@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft  Quiz</title>
+    <link rel="stylesheet" href="./Hackatoon/mstyle.css">
+    <script src="./Hackatoon/index.js"></script>
+    <link rel="icon" href="./Hackatoon/mineicon.png">
+</head>
+<body>
+    <header>
+        <a href="quizindex.html" id="home">VOLTAR</a>
+    </header>
+    <form id="quizform"> <!-- galer agrupei tudo em um formulário, precisa ajeitar o css-->
+        <label for="pergm1">1- Qual o único tipo de picareta que faz a obsidian dropar?</label><br>
+        <input type="radio" id="respm11" name="pergm1" value="0">
+        <label>Picareta de ferro</label><br>
+        <input type="radio" id="respm12" name="pergm1" value="1">
+        <label>Picareta de diamante</label><br>
+        <input type="radio" id="respm13" name="pergm1" value="0">
+        <label>Picareta de madeira</label><br>
+        <input type="radio" id="respm14" name="pergm1" value="0">
+        <label>Picareta de ouro</label><br><br>
+
+        <label for="pergm2">2- O que acontece quando você passa mais de 3 noites sem dormir no jogo?</label><br>
+        <input type="radio" id="respm21" name="pergm2" value="0">
+        <label>Nada</label><br>
+        <input type="radio" id="respm22" name="pergm2" value="0">
+        <label>Você é forçado a dormir pelo jogo</label><br>
+        <input type="radio" id="respm23" name="pergm2" value="0">
+        <label>Você começa a morrer pela falta de sono</label><br>
+        <input type="radio" id="respm24" name="pergm2" value="1">
+        <label>Você é atacado por Phantoms</label><br><br>
+
+        <label for="pergm3">3- O que acontece quando você ataca um Zombie Pigman que está em um grupo no Nether?</label><br>
+        <input type="radio" id="respm31" name="pergm3" value="0">
+        <label>Ele atacará você</label><br>
+        <input type="radio" id="respm32" name="pergm3" value="1">
+        <label>Ele atacará você junto com o grupo</label><br>
+        <input type="radio" id="respm33" name="pergm3" value="0">
+        <label>Ele vai fugir</label><br>
+        <input type="radio" id="respm34" name="pergm3" value="0">
+        <label>Ele vai se render oferecendo um ouro em troca</label><br><br>
+
+        <label for="pergm4">4- Quais os tipos de maldições que há no jogo?</label><br>
+        <input type="radio" id="respm41" name="pergm4" value="1">
+        <label>Maldição de ligação e maldição de desaparecimento</label><br>
+        <input type="radio" id="respm42" name="pergm4" value="0">
+        <label>Maldição de ligação e maldição de morte</label><br>
+        <input type="radio" id="respm43" name="pergm4" value="0">
+        <label>Maldição de morte e maldição de desaparecimento</label><br>
+        <input type="radio" id="respm44" name="pergm4" value="0">
+        <label>Maldição de fome e maldição de morte</label><br><br>
+
+        <label for="pergm5">5- O que é necessário para fazer um Golem no jogo?</label><br>
+        <input type="radio" id="respm51" name="pergm5" value="0">
+        <label>5 blocos de ferro e uma abóbora esculpida</label><br>
+        <input type="radio" id="respm52" name="pergm5" value="0">
+        <label>4 blocos de ferro e uma cabeça de esqueleto</label><br>
+        <input type="radio" id="respm53" name="pergm5" value="0">
+        <label>4 blocos de ferro e uma abóbora</label><br>
+        <input type="radio" id="respm54" name="pergm5" value="1">
+        <label>4 blocos de ferro e uma abóbora esculpida</label><br><br>
+
+        <h3 id="result">Resultado: Enviar</h3>
+        <button type="button" onclick="respp()" id="botaomine">Enviar</button>
+</body>
+</html>
